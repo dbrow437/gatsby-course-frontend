@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
         <Helmet>
           <Link
             rel="icon"
-            href={props.allWordpressWpFavicon.edges[0].node.ur.source_url}
+            href={props.allWordpressWpFavicon.edges[0].node.url.source_url}
           />
         </Helmet>
       )}
